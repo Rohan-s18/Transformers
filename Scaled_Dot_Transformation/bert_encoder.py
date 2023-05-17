@@ -13,7 +13,7 @@ def encoder_layer(model, n):
     print(layer)
 
 
-#  Minn function for demonstration
+#  Main function for demonstration
 def main():
     
     model = BertModel.from_pretrained('bert-base-uncased')
